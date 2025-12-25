@@ -204,10 +204,10 @@ main{
 
 /* Focus section styles */
 .focus-section{
-    padding: 71px 150px;
     background-color: white;
     border-radius: 14px;
     margin-bottom: 93px;
+    padding: 71px 151px;
 }
 
 .focus-section h2{
@@ -224,9 +224,9 @@ main{
 }
 
 .focus-section img{
+    border-radius: 48px;
     width: 840px;
     height: 365px;
-    border-radius: 48px;
     margin-top: 20px;
 }
 
