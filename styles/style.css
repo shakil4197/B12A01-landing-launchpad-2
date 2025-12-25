@@ -1,0 +1,96 @@
+/* Global Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Shared styles */
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.primary-btn{
+    background-color: #4E47FF;
+    font-size: 16px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.black1{
+    color: #252432;
+}
+
+.black2{
+    color: #252432;
+    opacity: 50%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* Navbar styles */
+header{
+    height: 698px;
+    background-image: url('/Assets/Hero-bg.png');
+}
+nav{
+    display: flex;
+    max-width: 1140px;
+    height: 151px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+nav img{
+    max-width: 220px;
+    max-height: 180px;
+    border-radius: 50%;
+}
+
+header h2{
+    font-size: 65px;
+    margin-bottom: 37px;
+    font-weight: bold;
+}
+.headder-text-section{
+    margin: 158px 267px 152px;
+}
+
+/* See It Live Styles */
+main{
+    padding: 0 151px;
+}
+.see-action-section{
+    display: flex;
+    align-items: center;
+    margin-top: 116px 0;
+    justify-content: space-between;
+}
+
+.see-action-section h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.see-action-content{
+    max-width: 517px;
+}
+
+.see-action-section p{
+    font-size: 24px;
+    margin: 23px 0;
+}
+
+.see-action-section img{
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+}
