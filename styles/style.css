@@ -77,7 +77,7 @@ header h2{
 
 /* See It Live Styles */
 main{
-    padding: 0 151px;
+    padding: 0 151px 15px;
     background-color: #F5F8FF;
 }
 .see-action-section{
@@ -139,7 +139,8 @@ main{
 
 /* Comments Section Styles */
 .user-comment-section{
-    margin-top: 137px;
+    margin: 137px 0;
+
 }
 
 .user-comment-header{
@@ -199,4 +200,105 @@ main{
 .user-name-date p{
     font-size: 16px;
     color: #B3B3B3;
+}
+
+/* Focus section styles */
+.focus-section{
+    padding: 71px 150px;
+    background-color: white;
+    border-radius: 14px;
+    margin-bottom: 93px;
+}
+
+.focus-section h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.focus-section p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.focus-section img{
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
+/* Get in touch section styles */
+
+.get-touch-section{
+    display: flex;
+    gap: 115px;
+    align-items: center;
+}
+
+.get-touch-section h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.get-touch-section input[type="email"],input[type="text"], textarea{
+    display: block;
+    width: 497px;
+    height: 70px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin-bottom: 19px;
+}
+
+.get-touch-section textarea{
+    height: 100px;
+}
+
+.get-touch-section label{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.get-touch-section button{
+    width: 100%;
+}
+
+footer{
+    height: 428px;
+}
+
+.footer-div{
+    margin: 103px 455px;
+}
+
+footer img{
+    width: 290px;
+    height: 170px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 24px;
+    color: rgba(137, 135, 161, 1);
+}
+
+.bottom-menus ul{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 20px;
+}
+
+.bottom-menus li{
+    list-style: none;
+}
+
+.bottom-menus li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 20px;
 }
